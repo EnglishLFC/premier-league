@@ -1,4 +1,4 @@
-# Ubersicht-Widgets
+# Ubersicht-Widgets: Premier League Table
 
 Premier League Widget for Ubersicht http://tracesof.net/uebersicht-widgets/
 
