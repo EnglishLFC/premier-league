@@ -10,6 +10,16 @@ If you want to color your favorite team, you'll need to change the **MY_TEAM_NAM
 
 Then put all this stuff in your local Ubersicht widgets directory. Either git clone the thing or download an archive, it's up to you.
 
+## Requirements
+
+I use Python from Mac Ports, which installs all it's bits and pieces in `/opt/local`, so if you don't use this and your Python is somewhere else, you'll need to change the path to your Python binary at the top of the Python script. Also, you'll need the following Python libraries:
+
+```Python
+urllib
+json
+requests
+```
+
 ## Screenshot
 
 [![Screenshot](screenshots/screenshot.png)]
