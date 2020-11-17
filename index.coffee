@@ -1,6 +1,7 @@
 # Premier League Widget for Ubersicht
 #
 # Copyright: Nigel Houghton <wutang@warpten.net>
+# $Id$
 #
 # Execute the shell command.
 command: "PremierLeague.widget/premier-league.py"
