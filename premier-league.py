@@ -10,8 +10,12 @@ import urllib.request
 import json
 import requests
 
+# Competition defaults to the English Premier League, ID 1.
+# See README.md for list of other competitions, change the
+# COMP_ID here if you want a different competition
+COMP_ID = 1
 url = "https://football-web-pages1.p.rapidapi.com/league-table.json"
-querystring = {"team":"1","comp":"1"}
+querystring = {"team":"1","comp":COMP_ID}
 headers = {
     'x-rapidapi-key': "YOUR_API_KEY",
     'x-rapidapi-host': "football-web-pages1.p.rapidapi.com"
