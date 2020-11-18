@@ -2,7 +2,7 @@
 """
  File name: get-competitions.py
  Date:      2020/11/18 15:43
- Author:    Nigel Houghton <nigel@warpten.net>
+ Author:    Nigel Houghton <wutang@warpten.net>
  $Id$
  Copyright: (c) Nigel Houghton 2020
 """
