@@ -22,5 +22,6 @@ requests
 
 ## Screenshot
 
-[![Screenshot](screenshots/mightyreds.jpg)]
-[![Screenshot](screenshots/screenshot.png)]
+![Table at the end of the 2019/2020 season](screenshots/mightyreds.jpg)
+
+![Screenshot, November 2020](screenshots/screenshot.png)
