@@ -22,4 +22,5 @@ requests
 
 ## Screenshot
 
+[![Screenshot](screenshots/mightyreds.jpg)]
 [![Screenshot](screenshots/screenshot.png)]
