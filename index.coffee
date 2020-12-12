@@ -4,7 +4,7 @@
 # $Id$
 #
 # Execute the shell command.
-command: "PremierLeague.widget/premier-league.py"
+command: "premier-league.widget/premier-league.py"
 
 # Set the refresh frequency (milliseconds).
 refreshFrequency: 1000000
