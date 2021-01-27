@@ -1,10 +1,9 @@
 # Premier League Widget for Ubersicht
 #
 # Copyright: Nigel Houghton <wutang@warpten.net>
-# $Id$
 #
 # Execute the shell command.
-command: "PremierLeague.widget/premier-league.py"
+command: "premier-league.widget/premier-league.py"
 
 # Set the refresh frequency (milliseconds).
 refreshFrequency: 1000000
@@ -19,7 +18,7 @@ style: """
   xxwidth:140px
   top: 6pt
   right: 6pt
-  font-family: Hack
+  font-family: Hack, Myriad Set Pro, Helvetica Neue
   background:rgba(#000, 0.0)
   border: none
   border-radius:10px
@@ -34,14 +33,17 @@ style: """
     padding:6px
     padding-bottom:0px
 
-# Change the RGB values here for a different color
+// Change the RGB values here for a different color
   .mightiest
-    color: rgba(255,0,0,1.0)
-# Also change them here
-  .mightyclass
-    color: rgba(255,0,0,1.0)
+    color: #f00
     vertical-align: middle
     text-align: center
+
+// Change the RGB values here for a different color
+  .themighty
+    color: #f00
+    vertical-align: middle
+    text-align: left
 
   .numbers
     vertical-align: middle
