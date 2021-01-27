@@ -17,7 +17,7 @@ COMP_ID = 1
 url = "https://football-web-pages1.p.rapidapi.com/league-table.json"
 querystring = {"team":"1","comp":COMP_ID}
 headers = {
-    'x-rapidapi-key': "ed2ff3d649mshfa4a35fa678e6b1p199f2djsn976c10b57ed9",
+    'x-rapidapi-key': "YOUR_API_KEY",
     'x-rapidapi-host': "football-web-pages1.p.rapidapi.com"
     }
 response = requests.request("GET", url, headers=headers, params=querystring)
