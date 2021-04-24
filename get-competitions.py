@@ -20,7 +20,7 @@ querystring = {"include":"rounds"}
 headers = {
     'x-rapidapi-key': "YOUR_API_KEY",
     'x-rapidapi-host': "football-web-pages1.p.rapidapi.com"
-    }
+}
 
 response = requests.request("GET", url, headers=headers, params=querystring)
 data = response.json()
