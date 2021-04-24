@@ -32,5 +32,3 @@ print("| Competition | Id |")
 print("| --- | --- |")
 for comp in data['competitions']:
     print("|",comp['generic-name'],"|",comp['id'],"|")
-
-
